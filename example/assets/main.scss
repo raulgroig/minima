@@ -69,3 +69,12 @@ $on-laptop:        800px;
 .site-footer {
     border-top: 1px solid #121212;
 }
+
+a:visited {
+  color: lighten($brand-color, 20%);
+}
+
+pre, 
+code {
+	background-color: $background-color;
+}
